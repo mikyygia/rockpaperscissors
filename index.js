@@ -39,22 +39,22 @@ function decide_winner() {
     if (user_choice == comp_choice) {
         document.getElementById("results-text").innerText = "It's a draw!"
     } else if (user_choice == 0 && comp_choice == 1) {
-        document.getElementById("results-text").innerText = "You lose!"
+        document.getElementById("results-text").innerText = "Computer wins!"
         add_points(1);
     } else if (user_choice == 0 && comp_choice == 2) {
-        document.getElementById("results-text").innerText = "You Win!"
+        document.getElementById("results-text").innerText = "You win!"
         add_points(0);
     } else if (user_choice == 1 && comp_choice == 0) {
-        document.getElementById("results-text").innerText = "You Win!"
+        document.getElementById("results-text").innerText = "You win!"
         add_points(0);
     } else if (user_choice == 1 && comp_choice == 2) {
-        document.getElementById("results-text").innerText = "You Lose!"
+        document.getElementById("results-text").innerText = "Computer wins!"
         add_points(1);
     } else if (user_choice == 2 && comp_choice == 0) {
-        document.getElementById("results-text").innerText = "You Lose!"
+        document.getElementById("results-text").innerText = "Computer wins!"
         add_points(1);
     } else if (user_choice == 2 && comp_choice == 1) {
-        document.getElementById("results-text").innerText = "You Win!"
+        document.getElementById("results-text").innerText = "You win!"
         add_points(0);
     } else {
         document.getElementById("results-text").innerText = "Um error whoops! Have an extra point!"
