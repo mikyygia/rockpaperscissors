@@ -8,12 +8,11 @@
 
 ## Screenshots 📸 
 ### v0 Design:
-![](./screenshots/v0-design.png)
+<img src="./screenshots/v0-design.png" width="300">
 
 ### My results:
-![](./screenshots/my-design.png)
-![](./screenshots/my-design2.png)
-
+<img src="./screenshots/my-design.png" width="300">
+<img src="./screenshots/my-design2.png" width="300">
 
 ## Acknowledgements 🙏
 Special thanks to these resources:
