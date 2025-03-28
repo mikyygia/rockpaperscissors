@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.title p {
+    color: gray;
+    font-weight: 400;
+}
+
+.container {
+    padding: 32px 54px;
+    border: solid 1.8px rgb(238, 238, 238);
+    /* box-shadow: 0px 0px 5px 2px lightgray; */
+    border-radius: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    /* margin: 32px 0; */
+}
+
+.main #-playing {
+    background-color: rgb(240, 240, 240);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .hand-icon {
+    width: 60%;
+    opacity: 0.5;
+}
+
+.you-area,
+.comp-area {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#you-points,
+#comp-points {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+#results-text {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 28px;
+    padding: 6px 16px;
+    margin-top: 12px;
+}
+
+button {
+    font-weight: bold;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-selector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: white;
+    width: 150px;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: white;
+    font-size: 1.1em;
+}
+
+.reset img {
+    margin: 0;
+}
