@@ -15,15 +15,25 @@ p {
     padding: 0;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .title p {
     color: gray;
     font-weight: 400;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    padding: 32px 54px;
+    padding: 32px 30px;
     border: solid 1.8px rgb(238, 238, 238);
-    /* box-shadow: 0px 0px 5px 2px lightgray; */
     border-radius: 15px;
     text-align: center;
 
@@ -36,8 +46,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 500;
-    /* margin: 32px 0; */
+    font-weight: 600;
 }
 
 .main #-playing {
@@ -65,11 +74,12 @@ p {
 
 #you-points,
 #comp-points {
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1.2em;
 }
 
 #results-text {
+    display: none;
     background-color: black;
     color: white;
     font-weight: 500;
@@ -81,6 +91,11 @@ p {
 
 button {
     font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(247, 247, 247);
 }
 
 button img {

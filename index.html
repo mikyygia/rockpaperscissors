@@ -18,7 +18,7 @@
         <section class="main">
             <div class="you-area">
                 <p>You</p>
-                <p id="-playing"><img class="hand-icon" src="./images/hand.png" alt="hand"></p>
+                <p id="-playing"><img id="user-choice-icon" class="hand-icon" src="./images/hand.png" alt="hand"></p>
                 <p id="you-points">0</p>
             </div>
 
@@ -29,33 +29,35 @@
 
             <div class="comp-area">
                 <p>Computer</p>
-                <p id="-playing"><img class="hand-icon" src="./images/hand.png" alt="hand"></p>
+                <p id="-playing"><img id="comp-choice-icon" class="hand-icon" src="./images/hand.png" alt="hand"></p>
                 <p id="comp-points">0</p>
             </div>
         </section>
 
         <section class="buttons">
-            <button class="button-selector">
+            <button class="button-selector" onclick="rock()">
                 <img src="./images/rock.svg" alt="rock">
                 <p>Rock</p>
             </button>
 
-            <button class="button-selector">
+            <button class="button-selector" onclick="paper()">
                 <img src="./images/paperclip.svg" alt="paperclip">
                 <p>Paper</p>
             </button>
 
-            <button class="button-selector">
+            <button class="button-selector" onclick="scissors()">
                 <img src="./images/scissors.svg" alt="scissors">
                 <p>Scissors</p>
             </button>
         </section>
 
-        <button class="reset">
+        <button class="reset" onclick="reset_game()">
             <img src="./images/repeat.svg" alt="repeat">
             <p>Reset Game</p>
         </button>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
